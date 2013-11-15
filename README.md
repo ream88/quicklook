@@ -1,6 +1,16 @@
-# quick-look
+# quicklook
 
-Quick-look files with node.js.
+Quicklook files on OS X.
+
+## Usage
+
+```coffeescript
+quicklook = require('quicklook')
+
+quicklook 'file.txt', (preview) ->
+  # Preview is undefined if some error occured.
+  preview
+```
 
 ## License
 
