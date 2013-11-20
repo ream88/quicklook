@@ -3,7 +3,7 @@
   "os": [
     "darwin"
   ],
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Quicklook files on OS X",
   "main": "lib/quicklook.js",
   "scripts": {
@@ -17,5 +17,8 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/haihappen/quicklook/issues"
+  },
+  "dependencies": {
+    "temp": "~0.6.0"
   }
 }

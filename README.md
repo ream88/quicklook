@@ -7,9 +7,13 @@ Quicklook files on OS X.
 ```coffeescript
 quicklook = require('quicklook')
 
-quicklook 'file.txt', (preview) ->
-  # Preview is undefined if some error occured.
-  preview
+# Creates a preview of a existing file, which will be saved as <file.ext>.png.
+quicklook.previewFile 'file.txt', (err, file) ->
+  # do something with file
+
+# Creates a preview of a file buffer, will not not save the preview file.
+quicklook.preview buffer, '.txt', (err, buffer) ->
+  # do something with buffer
 ```
 
 ## License
