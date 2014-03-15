@@ -23,6 +23,7 @@
     "temp": "~0.6.0"
   },
   "devDependencies": {
-    "coffee-script": ">= 1.7"
+    "coffee-script": ">= 1.7",
+    "mocha": "*"
   }
 }
