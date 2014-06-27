@@ -11,7 +11,7 @@ quicklook = require('quicklook')
 quicklook.previewFile 'file.txt', (err, file) ->
   # do something with file
 
-# Creates a preview of a file buffer, will not not save the preview file.
+# Creates a preview of a file buffer, will not save the preview file.
 quicklook.preview buffer, '.txt', (err, buffer) ->
   # do something with buffer
 ```
